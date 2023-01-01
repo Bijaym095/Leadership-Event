@@ -1,0 +1,27 @@
+.btn {
+  color: #fff;
+}
+
+.nav-cta-btn {
+  min-width: 127px;
+  background-color: $secondary;
+  padding: 10px 20px;
+  border-radius: $border-radius-md;
+
+  &:hover {
+    color: #fff;
+    background-color: $primary;
+  }
+}
+
+.transparent-outline-btn {
+  background: transparent;
+  border: 2px solid $primary;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    color: #fff;
+    box-shadow: 1rem 3rem rgb(0 0 0 / 18%);
+  }
+}

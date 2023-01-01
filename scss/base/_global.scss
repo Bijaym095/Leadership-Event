@@ -1,0 +1,12 @@
+picture,
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.slidein {
+  animation: slidein 0.4s ease-in-out forwards;
+}
