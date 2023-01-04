@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leadership Event</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
         <div class="container">
           <a class="navbar-brand navbar__logo" href="index.html">
             <picture>
-              <img src="./images/logo.png" alt="leadership event logo" />
+              <img src="./assets/images/logo.png" alt="leadership event logo" />
             </picture>
           </a>
           <button
@@ -39,7 +40,7 @@
               class="d-lg-none btn"
               aria-controls="#navbarNavDropdown"
             >
-              closeBtn
+              <span class="icon-close"></span>
             </button>
 
             <ul class="navbar-nav navbar__nav-list">
@@ -74,22 +75,872 @@
       <!-- navigation -->
     </header>
     <main>
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero__title title">
-            <span>Leadership</span> conference 2022
-          </h1>
-        </div>
-        <div class="video-wrap">
-          <video>
-            <source
-              src="videos/pexels-pavel-danilyuk-8716790.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+      <!-- home -->
+      <section id="home " class="hero section">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="title"><span>Leadership</span> conference 2022</h1>
+            <div class="detail">
+              <span class="date-text">July 12 to 18, 2022</span>
+              <span class="location-text">Times Square , NY</span>
+            </div>
+            <a class="arrow-btn" href="#"
+              ><span class="icon icon-arrow-thin-down"></span
+            ></a>
+          </div>
+          <div class="hero__video-wrap">
+            <video>
+              <source
+                src="videos/pexels-pavel-danilyuk-8716790.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="hero__highlight row">
+            <div class="col-md-6 col-lg-4">
+              <div class="highlight-thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/highlight/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg"
+                    alt=""
+                /></picture>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <picture
+                ><img
+                  src="https://templatemo.com/templates/templatemo_575_leadership_event/images/highlight/miguel-henriques--8atMWER8bI-unsplash.jpg"
+                  alt=""
+              /></picture>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <picture
+                ><img
+                  src="https://templatemo.com/templates/templatemo_575_leadership_event/images/highlight/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg"
+                  alt=""
+              /></picture>
+            </div>
+          </div>
         </div>
       </section>
+      <!-- home -->
+      <!-- about -->
+      <section id="about " class="about section">
+        <div class="container">
+          <h2 class="title">Our <span>Story</span></h2>
+          <div class="row">
+            <div class="col-lg-6 about__content">
+              <h3>The importance of Leadership Conference in 2022</h3>
+              <p>
+                Leadership Event is one-page Bootstrap v5.1.3 CSS layout for
+                your website. Thank you for choosing TemplateMo website where
+                you can instantly download free CSS templates at no cost.
+              </p>
+              <div class="btn-container">
+                <a href="#" class="btn transparent-outline-btn"
+                  >Meet Speakers</a
+                >
+                <a href="#" class="btn custom-btn"> Check out Schedule </a>
+              </div>
+            </div>
+            <div class="col-lg-6 about__detail">
+              <h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut dolore
+              </h4>
+              <div class="line-dec"></div>
+              <div class="avatar-group">
+                <picture>
+                  <img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
+                    alt="good looking brunette young asian woman"
+                  />
+                </picture>
+                <picture class="offset-left">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
+                    alt="happy asian man standing with arms crossed grey wall"
+                  />
+                </picture>
+                <picture class="offset-left">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/senior-man-white-sweater-eyeglasses.jpg"
+                    alt="senior man in white sweater with eye glasses"
+                  />
+                </picture>
+                <picture class="offset-left">
+                  <img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
+                    alt="pretty smiling joyfully female with fair hair dressed casually with satisfaction"
+                  />
+                </picture>
+
+                <p>120+ People are attending with us</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <!-- speakers -->
+      <section id="speakers" class="speakers section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 speakers__title">
+              <h2 class="title">Our <span>Speakers</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut dolore
+              </p>
+            </div>
+            <!-- thumb1 -->
+            <div class="col-md-12 col-lg-6">
+              <div class="speakers__thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
+                    alt="happy asian man standing with arms crossed grey wall"
+                /></picture>
+                <strong class="tag">Featured</strong>
+                <div class="speakers__info stretched-link">
+                  <h5>
+                    Logan Wilson
+                    <em>Ceo / Founder</em>
+                  </h5>
+                  <ul class="social-icon">
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-facebook-square"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-instagram"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-google"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- thumb1 -->
+            <!-- thumb2 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="speakers__thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
+                    alt="a good looking brunette young asian woman"
+                /></picture>
+                <!-- speakers-info -->
+                <div class="speakers__info stretched-link">
+                  <h5>
+                    Natalie
+                    <em>Event planner</em>
+                  </h5>
+                  <ul class="social-icon">
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-facebook-square"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-instagram"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- speakers-info -->
+              </div>
+            </div>
+            <!-- thumb2 -->
+            <!-- thumb3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="speakers__thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/senior-man-white-sweater-eyeglasses.jpg"
+                    alt="senior man white sweater eyeglasses"
+                /></picture>
+                <!-- speakers-info -->
+                <div class="speakers__info stretched-link">
+                  <h5>
+                    Thomas
+                    <em>Startup Coach</em>
+                  </h5>
+                  <ul class="social-icon">
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-instagram"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-whatsapp"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- speakers-info -->
+              </div>
+            </div>
+            <!-- thumb3 -->
+            <!-- thumb4 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="speakers__thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
+                    alt="pretty smiling joyfully female with fair hair dressed casually looking with satisfaction"
+                /></picture>
+                <!-- speakers-info -->
+                <div class="speakers__info stretched-link">
+                  <h5>
+                    Isabelle
+                    <em>Event Manager</em>
+                  </h5>
+                  <ul class="social-icon">
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-facebook-square"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-instagram"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-whatsapp"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- speakers-info -->
+              </div>
+            </div>
+            <!-- thumb4 -->
+            <!-- thumb5 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="speakers__thumb">
+                <picture
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
+                    alt="indoor shot beautiful african-american woman smiling cheerfully keeping her arms folded relaxing indoors after morning lectures university"
+                /></picture>
+                <!-- speakers-info -->
+                <div class="speakers__info stretched-link">
+                  <h5>
+                    Samantha
+                    <em>Top Level Speaker</em>
+                  </h5>
+                  <ul class="social-icon">
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-instagram"></span
+                      ></a>
+                    </li>
+                    <li class="social-icon-item">
+                      <a class="social-icon-link" href="#" target="_blank"
+                        ><span class="icon-whatsapp"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- speakers-info -->
+              </div>
+            </div>
+            <!-- thumb5 -->
+          </div>
+        </div>
+      </section>
+      <!-- speakers -->
+      <!-- schedules -->
+      <section id="schedules" class="schedules section">
+        <div class="container">
+          <h2 class="schedules__title title">Next <span>Schedules</span></h2>
+          <!-- tab-wrapper -->
+          <ul
+            class="nav nav-tabs row tab schedules__tabs"
+            id="myTab"
+            role="tablist"
+          >
+            <li class="nav-item col-6 col-lg-3 tab-item" role="presentation">
+              <button
+                class="nav-link tab-link active"
+                id="dayone-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#day-one-tab"
+                type="button"
+                role="tab"
+                aria-controls="day-one-tab"
+                aria-selected="true"
+              >
+                <h3><span>Day One</span> <small>July 12 , 2022</small></h3>
+              </button>
+            </li>
+            <li class="nav-item col-6 col-lg-3 tab-item" role="presentation">
+              <button
+                class="nav-link tab-link"
+                id="daytwo-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#daytwo-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="daytwo-tab-pane"
+                aria-selected="false"
+              >
+                <h3><span>Day Two</span> <small>July 14 , 2022</small></h3>
+              </button>
+            </li>
+            <li class="nav-item col-6 col-lg-3 tab-item" role="presentation">
+              <button
+                class="nav-link tab-link"
+                id="daythree-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#daythree-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="daythree-tab-pane"
+                aria-selected="false"
+              >
+                <h3><span>Day Three</span> <small>July 16 , 2022</small></h3>
+              </button>
+            </li>
+            <li class="nav-item col-6 col-lg-3 tab-item" role="presentation">
+              <button
+                class="nav-link tab-link"
+                id="daythree-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#dayfour-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="dayfour-tab-pane"
+                aria-selected="false"
+              >
+                <h3><span>Day Four</span> <small>July 18 , 2022</small></h3>
+              </button>
+            </li>
+          </ul>
+          <!-- tab-wrapper -->
+          <div
+            class="tab-content tab-content schedules__tabs-content"
+            id="myTabContent"
+          >
+            <!-- day-one-content -->
+            <div
+              class="tab-pane fade show active"
+              id="day-one-tab"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <!-- article1 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/fabian-friedrich-JDUVM9_VaZE-unsplash.jpg"
+                    alt=""
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Startup Development Ideas</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                    Class aptent taciti sociosqu ad litora.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-12 col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
+                            alt=""
+                        /></picture>
+                        <h6>
+                          Logan Wilson
+                          <span>CEO / FOUNDER</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 11:00 - 11:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"> 100-B Room</span>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article1 -->
+              <!-- article2 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/clayton-cardinalli-JMoFpdqL3XM-unsplash.jpg"
+                    alt=""
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Introduction to Online Businesses</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                    Class aptent taciti sociosqu ad litora.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
+                            alt=""
+                        /></picture>
+                        <h6>
+                          Natalie
+                          <span>Event Planner</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 11:00 - 11:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"></span>100-D Room
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article-2 -->
+              <!-- article3 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/business-woman-making-presentation-office.jpg"
+                    alt="business woman making presentation office"
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Bootstrapping Startup</h4>
+                  <p>
+                    Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. Ut consequat purus posuere
+                    tortor efficitur, sit amet dignissim libero aliquam.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/senior-man-white-sweater-eyeglasses.jpg"
+                            alt="senior man white sweater eyeglasses"
+                        /></picture>
+                        <h6>
+                          Thomas
+                          <span>Startup Coach</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 11:00 - 11:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"></span>100-B Room
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article3 -->
+            </div>
+            <!-- day-one-content -->
+            <!-- day-two-content -->
+            <div
+              class="tab-pane fade"
+              id="daytwo-tab-pane"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <!-- article1 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/people-smiling-while-conference-room.jpg"
+                    alt="people smiling while conference room"
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Building a famous company</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                    Class aptent taciti sociosqu ad litora.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-12 col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
+                            alt="pretty smiling joyfully female with fair hair dressed casually looking with satisfaction"
+                        /></picture>
+                        <h6>
+                          Isabella
+                          <span> EVENT MANAGER</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 9:00 - 9:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar">
+                          Conference Hall 2</span
+                        >
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article1 -->
+              <!-- article2 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/jason-goodman-bzqU01v-G54-unsplash.jpg"
+                    alt=""
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Dev Ops life in corporate</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                    Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
+                            alt="indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university"
+                        /></picture>
+                        <h6>
+                          Samantha
+                          <span>Top Level Speaker</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 10:00 - 10:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"></span>100-A Room
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article-2 -->
+            </div>
+            <!-- day-two-content -->
+            <!-- day-three-content -->
+            <div
+              class="tab-pane fade"
+              id="daythree-tab-pane"
+              role="tabpanel"
+              aria-labelledby="daythree-tab"
+              tabindex="0"
+            >
+              <!-- article1 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/people-smiling-while-conference-room.jpg"
+                    alt="people-smiling-while-conference-room"
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Maintaining a successful business</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                    Class aptent taciti sociosqu.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-12 col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
+                            alt="happy-asian-man-standing-with-arms-crossed-grey-wall"
+                        /></picture>
+                        <h6>
+                          Logan Wilson
+                          <span>CEO / FOUNDER</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 11:00 - 11:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"> 100-B Room</span>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article1 -->
+              <!-- article2 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/jason-goodman-bzqU01v-G54-unsplash.jpg"
+                    alt=""
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>Working Life in Corporate Environment</h4>
+                  <p>
+                    Quisque mollis, ante non semper ultricies, nulla sapien
+                    sollicitudin augue, id scelerisque nunc turpis nec urna.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-md-4">
+                      <div class="article-avatar-group">
+                        <picture
+                          ><img
+                            src="https://templatemo.com/templates/templatemo_575_leadership_event/images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
+                            alt="indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university"
+                        /></picture>
+                        <h6>
+                          Samantha
+                          <span>Top Level Speaker</span>
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 10:00 - 10:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"></span>100-A Room
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article2 -->
+            </div>
+            <!-- day-three-content -->
+            <!-- day-four-content -->
+            <div
+              class="tab-pane fade"
+              id="dayfour-tab-pane"
+              role="tabpanel"
+              aria-labelledby="dayfour-tab"
+              tabindex="0"
+            >
+              <!-- article1 -->
+              <article class="article row">
+                <picture class="col-lg-4"
+                  ><img
+                    src="https://templatemo.com/templates/templatemo_575_leadership_event/images/schedule/jeshoots-com-TWRCH-GaKr4-unsplash.jpg"
+                    alt="champagne bucket with glasses and ice"
+                /></picture>
+                <!-- article-content -->
+                <div class="article-content col-lg-8">
+                  <h4>After Party at the fullest</h4>
+                  <p>
+                    There is a plenty of great HTML CSS templates available at
+                    TemplateMo.com website for your businesses. You can
+                    download, edit and use any template for any purpose. Please
+                    let us know <a href="#"> your feedback via Email</a>. Thank
+                    you.
+                  </p>
+                  <!-- article-detail -->
+                  <div class="article-detail row">
+                    <div class="col-12 col-md-3">
+                      <span class="duration">
+                        <span class="icon icon-time"></span> 11:00 - 11:45 A.M
+                      </span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <span class="location">
+                        <span class="icon icon-show-sidebar"> 100-B Room</span>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- article-detail -->
+                </div>
+                <!-- article-content -->
+              </article>
+              <!-- article1 -->
+            </div>
+            <!-- day-four-content -->
+          </div>
+        </div>
+      </section>
+      <!-- schedules -->
+      <!-- cta -->
+      <section class="cta section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 cta__content">
+              <h2 class="title">Become an <span>event speaker</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut dolore
+              </p>
+            </div>
+            <div class="col-lg-3 cta__btn-container">
+              <a class="btn cta-btn" href="#" class="btn" role="button"
+                >Register Today</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cta -->
+      <!-- pricing -->
+      <section id="pricing" class="pricing section">
+        <div class="container">
+          <h2 class="pricing__title title">Get your <span>Tickets.</span></h2>
+          <div class="pricing__wrapper row">
+            <!-- card1 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <header class="card-header">
+                  <h4>Early Bird</h4>
+                  <h6>$640</h6>
+                </header>
+                <main class="card-body">
+                  <ul>
+                    <li>
+                      <span class="icon-coffee"></span> All-Day Coffee + Snacks
+                    </li>
+                    <li><span class="icon-gamepad"></span> After Party</li>
+                    <li><span class="icon-bubble"></span> 24/7 Support</li>
+                  </ul>
+                  <p>Quick group meetings for multiple teams</p>
+                  <a href="#" class="btn custom-btn" role="button" type="button"
+                    >Buy Tickets</a
+                  >
+                </main>
+              </div>
+            </div>
+            <!-- card1 -->
+            <!-- card2 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <header class="card-header">
+                  <h4>Gold</h4>
+                  <h6>$840</h6>
+                </header>
+                <main class="card-body">
+                  <ul>
+                    <li>
+                      <span class="icon-coffee"></span> All-Day Coffee + Snacks
+                    </li>
+                    <li>
+                      <span class="icon-radio"></span> Group Meetings + After
+                      Party
+                    </li>
+                    <li>
+                      <span class="icon-bubble"></span> Support + Instant Chats
+                    </li>
+                  </ul>
+                  <p>Quick group meetings for multiple teams</p>
+                  <a href="#" class="btn custom-btn" role="button" type="button"
+                    >Buy Tickets</a
+                  >
+                </main>
+              </div>
+            </div>
+            <!-- card2 -->
+            <!-- card3 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <header class="card-header">
+                  <h4>Platinum</h4>
+                  <h6>$1,240</h6>
+                </header>
+                <main class="card-body">
+                  <ul>
+                    <li><span class="icon-banknote"></span> Cashback $200</li>
+                    <li>
+                      <span class="icon-radio"></span> Private Meetings + After
+                      Party
+                    </li>
+                    <li><span class="icon-bubble"></span> 24/7 Support</li>
+                  </ul>
+                  <p>Group talks and private chats for multiple teams</p>
+                  <a href="#" class="btn custom-btn" role="button" type="button"
+                    >Buy Tickets</a
+                  >
+                </main>
+              </div>
+            </div>
+            <!-- card3 -->
+          </div>
+        </div>
+      </section>
+      <!-- pricing -->
     </main>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./main.js"></script>

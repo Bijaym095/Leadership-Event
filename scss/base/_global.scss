@@ -1,12 +1,29 @@
 picture,
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
+
 a {
   text-decoration: none;
   transition: all 0.3s;
 }
-.slidein {
-  animation: slidein 0.4s ease-in-out forwards;
+
+.section {
+  padding-block: 30px;
+  @include media-breakpoint-up(sm) {
+    padding-block: 50px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-block: 80px;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+em {
+  font-style: normal;
 }

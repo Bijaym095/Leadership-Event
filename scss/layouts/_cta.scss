@@ -1,0 +1,23 @@
+.cta {
+  background: url("https://templatemo.com/templates/templatemo_575_leadership_event/images/terren-hurst-blgOFmPIlr0-unsplash.jpg")
+    center no-repeat fixed;
+  background-size: cover;
+
+  &__content {
+    color: #fff;
+
+    .title,
+    p {
+      color: inherit;
+    }
+
+    .title {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__btn-container {
+    margin-left: auto;
+    align-self: center;
+  }
+}

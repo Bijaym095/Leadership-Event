@@ -2,8 +2,8 @@
 @import "./vendors/bootstrap";
 
 //abstract
-@import "./abstract/variables";
-@import "./abstract/mixins";
+@import "./utils/variables";
+@import "./utils/mixins";
 
 //base
 @import "./base/global";
@@ -11,7 +11,15 @@
 
 //components
 @import "./components/buttons";
+@import "./components/card";
+@import "./components/article";
+@import "./components/tabs";
 
 //layouts
 @import "./layouts/nav";
 @import "./layouts/hero";
+@import "./layouts/about";
+@import "./layouts/speakers";
+@import "./layouts/schedules";
+@import "./layouts/cta";
+@import "./layouts/pricing";

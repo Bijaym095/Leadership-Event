@@ -1,0 +1,12 @@
+.schedules {
+  &__title {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__tabs-content {
+    & > *:not(:last-child) {
+      border-bottom: 1px solid #dedede;
+    }
+  }
+}

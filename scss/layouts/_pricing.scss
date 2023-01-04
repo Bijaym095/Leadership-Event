@@ -1,0 +1,14 @@
+.pricing {
+  &__title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__wrapper {
+    & > *:not(:first-child) {
+      @include media-breakpoint-down(lg) {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}
