@@ -8372,8 +8372,11 @@ p {
   background-color: #273053;
   padding-block: 15px;
 }
-.navbar .nav-link {
-  padding: 20px;
+.navbar .navbar-nav .nav-link {
+  padding: 10px 15px;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: #0dcaf0;
 }
 .navbar .collapse {
   display: block;
@@ -8420,6 +8423,9 @@ p {
   padding: 15px 20px;
   color: #fff;
 }
+.navbar__links-container .nav-link.active {
+  color: #0dcaf0;
+}
 .navbar__links-container .nav-link:hover {
   color: #0dcaf0;
 }
@@ -8430,7 +8436,7 @@ p {
 }
 @media (max-width: 991.98px) {
   .navbar__links-container {
-    padding-block: 50px;
+    padding-block: 85px;
     position: fixed;
     width: 250px;
     background: #273053;

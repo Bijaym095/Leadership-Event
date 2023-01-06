@@ -45,25 +45,39 @@
 
             <ul class="navbar-nav navbar__nav-list">
               <li class="navbar__nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a
+                  data-id="hero"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#hero"
+                  >Home</a
+                >
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a data-id="about" class="nav-link" href="#about">About</a>
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#speakers">Speakers</a>
+                <a data-id="speakers" class="nav-link" href="#speakers"
+                  >Speakers</a
+                >
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#schedules">Schedules</a>
+                <a data-id="schedules" class="nav-link" href="#schedules"
+                  >Schedules</a
+                >
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
+                <a data-id="pricing" class="nav-link" href="#pricing"
+                  >Pricing</a
+                >
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#venue">Venue</a>
+                <a data-id="venue" class="nav-link" href="#venue">Venue</a>
               </li>
               <li class="navbar__nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a data-id="contact" class="nav-link" href="#contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -78,7 +92,7 @@
     </header>
     <main>
       <!-- home -->
-      <section data-id="home" id="home" class="hero section">
+      <section id="hero" class="hero section">
         <div class="hero__container container">
           <div class="hero__content">
             <h1 class="title"><span>Leadership</span> conference 2022</h1>
@@ -157,7 +171,7 @@
         </div>
       </section>
       <!-- about -->
-      <section data-id="about" id="about" class="about section">
+      <section id="about" class="about section">
         <div class="container">
           <h2 class="title">Our <span>Story</span></h2>
           <div class="row">
@@ -169,10 +183,12 @@
                 you can instantly download free CSS templates at no cost.
               </p>
               <div class="btn-container">
-                <a href="#" class="btn transparent-outline-btn"
+                <a href="#speakers" class="btn transparent-outline-btn"
                   >Meet Speakers</a
                 >
-                <a href="#" class="btn custom-btn"> Check out Schedule </a>
+                <a href="#schedules" class="btn custom-btn">
+                  Check out Schedule
+                </a>
               </div>
             </div>
             <div class="col-lg-6 about__detail">
@@ -1137,7 +1153,7 @@
               <br />
               Design TemplateMo
             </p>
-            <a class="back-to-top" href="#home"
+            <a class="back-to-top" href="#hero"
               ><span class="icon-arrow-up"></span
             ></a>
           </div>

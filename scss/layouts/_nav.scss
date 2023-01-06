@@ -2,8 +2,12 @@
   background-color: $navbar-bg-clr;
   padding-block: 15px;
 
-  .nav-link {
-    padding: 20px;
+  & .navbar-nav .nav-link {
+    padding: 10px 15px;
+
+    &.active {
+      color: $primary;
+    }
   }
 
   .collapse {
@@ -59,6 +63,10 @@
       padding: 15px 20px;
       color: #fff;
 
+      &.active {
+        color: $primary;
+      }
+
       &:hover {
         color: $primary;
       }
@@ -69,7 +77,7 @@
     }
 
     @include media-breakpoint-down(lg) {
-      padding-block: 50px;
+      padding-block: 85px;
       position: fixed;
       width: 250px;
       background: $navbar-bg-clr;
