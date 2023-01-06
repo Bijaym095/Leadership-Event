@@ -1,0 +1,41 @@
+.venue {
+  background-color: $section-bg-clr;
+
+  .title {
+    margin-bottom: 3rem;
+  }
+
+  &__map {
+    iframe {
+      width: 100%;
+      object-fit: cover;
+      border-radius: $border-radius-md;
+    }
+  }
+
+  &__detail {
+    ul {
+      border-bottom: 0;
+
+      & > li:first-child {
+        color: #000;
+      }
+    }
+
+    li {
+      font-size: 1.35rem;
+    }
+
+    a {
+      color: #717275;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    @include media-breakpoint-down(lg) {
+      margin-top: 1.5rem;
+    }
+  }
+}

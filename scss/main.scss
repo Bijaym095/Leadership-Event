@@ -14,12 +14,17 @@
 @import "./components/card";
 @import "./components/article";
 @import "./components/tabs";
+@import "./layouts/forms";
 
 //layouts
 @import "./layouts/nav";
 @import "./layouts/hero";
+@import "./layouts/highlights";
 @import "./layouts/about";
 @import "./layouts/speakers";
 @import "./layouts/schedules";
 @import "./layouts/cta";
 @import "./layouts/pricing";
+@import "./layouts/venue";
+@import "./layouts/contact";
+@import "./layouts/footer";

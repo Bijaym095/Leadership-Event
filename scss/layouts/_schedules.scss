@@ -1,11 +1,23 @@
 .schedules {
+  .navtabs .navlink {
+    border-radius: 0;
+  }
+
   &__title {
     margin-bottom: 3rem;
     text-align: center;
   }
 
+  &__tabs {
+    margin-bottom: 1.5rem;
+
+    & .navlink {
+      border-radius: 0;
+    }
+  }
+
   &__tabs-content {
-    & > *:not(:last-child) {
+    & .article:not(:last-child) {
       border-bottom: 1px solid #dedede;
     }
   }

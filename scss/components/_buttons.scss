@@ -75,3 +75,14 @@
     color: #fff;
   }
 }
+
+.contact-form-btn {
+  background-color: $navbar-bg-clr;
+  color: #fff;
+  border-radius: $border-radius-md;
+
+  &:hover {
+    color: #fff;
+    background-color: $primary;
+  }
+}

@@ -1,5 +1,10 @@
 .navbar {
   background-color: $navbar-bg-clr;
+  padding-block: 15px;
+
+  .nav-link {
+    padding: 20px;
+  }
 
   .collapse {
     display: block;
@@ -48,6 +53,7 @@
 
   &__links-container {
     justify-content: center;
+    position: relative;
 
     .nav-link {
       padding: 15px 20px;
@@ -63,15 +69,25 @@
     }
 
     @include media-breakpoint-down(lg) {
-      padding-block: 45px;
+      padding-block: 50px;
       position: fixed;
       width: 250px;
-      background: rgb(0 0 0 / 0.75);
+      background: $navbar-bg-clr;
       top: 0;
       left: -250px;
       bottom: 0;
       z-index: 99;
       transition: all 0.3s linear;
+    }
+  }
+
+  &__close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    &:hover {
+      color: $primary;
     }
   }
 }

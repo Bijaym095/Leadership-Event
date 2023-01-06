@@ -1,0 +1,27 @@
+.contact {
+  background: url("https://templatemo.com/templates/templatemo_575_leadership_event/images/maria-stewart-p4tj0g-_aMM-unsplash.jpg")
+    center no-repeat fixed;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+
+  &__form {
+    h4 {
+      width: 100%;
+    }
+
+    .card-body {
+      background-color: #fff;
+
+      & > * {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  &__btn-container {
+    button {
+      display: block;
+      width: 100%;
+    }
+  }
+}

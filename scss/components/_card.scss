@@ -1,5 +1,4 @@
 .card {
-  height: 100%;
   border-radius: $border-radius-md;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   overflow: hidden;
@@ -10,6 +9,10 @@
     background-color: $navbar-bg-clr;
     color: #fff;
     padding: 20px 40px;
+
+    h6 {
+      font-size: 1.5rem;
+    }
   }
   &-body {
     padding: 40px;
@@ -20,7 +23,7 @@
     }
 
     li {
-      text-transform: capitalize;
+      // text-transform: capitalize;
       font-size: 1.125rem;
       color: #717275;
       margin-bottom: 1rem;

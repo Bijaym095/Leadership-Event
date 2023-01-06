@@ -1,0 +1,8 @@
+.form-control {
+  background-color: $section-bg-clr;
+  padding-block: 13px;
+
+  &:focus {
+    background-color: $section-bg-clr;
+  }
+}
