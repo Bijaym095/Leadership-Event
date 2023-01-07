@@ -6,7 +6,7 @@ This is the landing page cloned from the [TemplateMo](https://templatemo.com/liv
 
 ## Installation
 
-To run this project you need to run the following scripts
+To run this project you need to run the following script
 
 ```bash
   npm install
